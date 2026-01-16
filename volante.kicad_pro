@@ -412,6 +412,14 @@
     [
       "55331ded-e132-41ef-938e-601947036493",
       "Root"
+    ],
+    [
+      "7b592331-f88e-478f-b6fd-2b1a2136cc2e",
+      "Conversor DC-DC"
+    ],
+    [
+      "f4637144-ddf3-4e06-8b0b-ed6ed0123c90",
+      "Ponte H"
     ]
   ],
   "text_variables": {}
