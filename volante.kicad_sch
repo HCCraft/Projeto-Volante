@@ -48,8 +48,8 @@
 		)
 	)
 	(sheet
-		(at 108.585 35.56)
-		(size 66.675 50.8)
+		(at 66.675 21.59)
+		(size 27.305 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +64,7 @@
 		)
 		(uuid "f4637144-ddf3-4e06-8b0b-ed6ed0123c90")
 		(property "Sheetname" "Ponte H"
-			(at 108.585 34.8484 0)
+			(at 66.675 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "h_bridge_sch.kicad_sch"
-			(at 108.585 86.9446 0)
+			(at 66.675 39.9546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
