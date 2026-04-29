@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -123,16 +129,16 @@
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.2,
-        "min_microvia_drill": 0.1,
+        "min_microvia_diameter": 2.032,
+        "min_microvia_drill": 1.016,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 1.016,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 2.032,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -180,7 +186,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +215,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -469,18 +482,105 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.508,
+        "via_diameter": 2.032,
+        "via_drill": 1.016,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "name": "comando",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.508,
+        "via_diameter": 2.032,
+        "via_drill": 1.016
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "/Ponte H/meia ponte A/Gh": [
+        "comando"
+      ],
+      "/Ponte H/meia ponte A/Gl": [
+        "comando"
+      ],
+      "/Ponte H/meia ponte B/Gh": [
+        "comando"
+      ],
+      "/Ponte H/meia ponte B/Gl": [
+        "comando"
+      ],
+      "GND": [
+        "comando"
+      ],
+      "Net-(D2-K)": [
+        "comando"
+      ],
+      "Net-(D4-K)": [
+        "comando"
+      ],
+      "Net-(D6-K)": [
+        "comando"
+      ],
+      "Net-(D8-K)": [
+        "comando"
+      ],
+      "Net-(Q1-B)": [
+        "comando"
+      ],
+      "Net-(Q1-E)": [
+        "comando"
+      ],
+      "Net-(Q10-B)": [
+        "comando"
+      ],
+      "Net-(Q10-C)": [
+        "comando"
+      ],
+      "Net-(Q11-B)": [
+        "comando"
+      ],
+      "Net-(Q11-E)": [
+        "comando"
+      ],
+      "Net-(Q15-B)": [
+        "comando"
+      ],
+      "Net-(Q16-B)": [
+        "comando"
+      ],
+      "Net-(Q16-E)": [
+        "comando"
+      ],
+      "Net-(Q20-B)": [
+        "comando"
+      ],
+      "Net-(Q5-B)": [
+        "comando"
+      ],
+      "Net-(Q6-E)": [
+        "comando"
+      ],
+      "PWM_CC": [
+        "comando"
+      ],
+      "PWM_CW": [
+        "comando"
+      ]
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "comando",
+        "pattern": ""
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -596,7 +696,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -629,6 +729,10 @@
     [
       "e808bcf4-e8f1-49d2-acef-cad96eefa4ea",
       "meia ponte B"
+    ],
+    [
+      "34f4871b-9613-4a8e-a908-781e6a41738c",
+      "controle"
     ]
   ],
   "text_variables": {}

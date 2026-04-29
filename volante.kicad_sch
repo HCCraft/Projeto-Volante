@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 104.775 22.225)
+		(size 20.955 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "34f4871b-9613-4a8e-a908-781e6a41738c")
+		(property "Sheetname" "controle"
+			(at 104.775 21.5134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controle.kicad_sch"
+			(at 104.775 39.3196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "volante"
+				(path "/55331ded-e132-41ef-938e-601947036493"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 20.32 22.86)
 		(size 21.59 17.145)
 		(exclude_from_sim no)
